@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by Grizzy on 7/24/2017 -->
+<GameData>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_GMO_LAB">
+			<Text>GMO Lab</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_GMO_LAB_STRATEGY">
+			<Text>The GMO Lab is a late-game building capable of creating sprawling cities, fast. It increases a city's [ICON_FOOD] Growth substantially. The city must contain a Medical Lab.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_GMO_LAB_PEDIA">
+			<Text>A genetically modified organism (GMO) refers to any organism whose genetic material has been altered using genetic engineering techniques. It is used as a way of replicating food sources such as corn, whilst engineering it to be resistant to detriments such as pesticides and disease.</Text>
+			</Row>
+		<Row Tag="TXT_KEY_BUILDING_GMO_LAB_HELP">
+			<Text>Provides 10 [ICON_FOOD] Food in the city which it is built.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_GMOLAB_HEADING">
+			<Text>GMO Lab</Text>
+		</Row>
+	</Language_en_US>
+  
+</GameData>

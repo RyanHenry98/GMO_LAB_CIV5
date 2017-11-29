@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="ca5fa243-37cb-44d9-9a49-a1feb99d103f" version="1">
+  <Properties>
+    <Name>GMO Laboratory</Name>
+    <Stability>Alpha</Stability>
+    <Teaser>This mod allows for the creation of extra food - great for creating large cities fast.</Teaser>
+    <Description>This late-game building yields 10 food, is unlocked upon researching ecology, and helps create sprawling cities, fast.</Description>
+    <Authors>Grizzy367</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="DB3DCF090C6F84841E607841E961019C" import="1">XML/Art/GmoLabIcon_128.dds</File>
+    <File md5="0FD5D4B723230B91A6CC29FCBA928FEC" import="1">XML/Art/GmoLabIcon_256.dds</File>
+    <File md5="556B86845F7E00AB1C4ABF14A50CD827" import="1">XML/Art/GmoLabIcon_45.dds</File>
+    <File md5="1292097AD098F8E92709704F72DA63B1" import="1">XML/Art/GmoLabIcon_64.dds</File>
+    <File md5="C9B8114718FA713F47D4BB9F3925AC29" import="1">XML/Art/GmoLabIcon_80.dds</File>
+    <File md5="7BEC077ECBC14C002C0A03FF46946408" import="0">XML/Buildings/CIV5BuildingClasses.xml</File>
+    <File md5="7EC1E15BF1505C2F9A8262C9D365BC4D" import="0">XML/Buildings/CIV5Buildings.xml</File>
+    <File md5="E37382561975A64A9CCCB09E8F328951" import="0">XML/NewText/CIV5GameText.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>XML/Buildings/CIV5BuildingClasses.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Buildings/CIV5Buildings.xml</UpdateDatabase>
+      <UpdateDatabase>XML/NewText/CIV5GameText.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

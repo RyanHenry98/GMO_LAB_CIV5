@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by Grizzy on 7/24/2017 -->
+<GameData>
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_GMO_LAB</Type>
+			<DefaultBuilding>BUILDING_GMO_LAB</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_GMO_LAB</Description>
+		</Row>
+	</BuildingClasses>
+</GameData>
